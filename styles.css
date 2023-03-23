@@ -1,0 +1,145 @@
+html {
+    width: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+}
+
+body {
+    max-width: 1250px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.cim {
+    font-size: 25px;
+    color: darkslategray;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding-right: 20px;;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: darkslategray;
+}
+
+a:hover {
+    color: peru;
+}
+
+.logo-pic {
+    max-width: 100px;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#sign-up p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+
+.meal-pic {
+    max-width: 400px;
+}
+
+.meal-pic img {
+    max-width: 400px;
+}
+
+#sign-up {
+    background-image: url('img/main.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h1, h3, p {
+    color: #f5f3f3
+}
+
+input[type='email'] {
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+}
+
+button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+}
+
+button:hover {
+    background-color: #333;
+    color: white;
+}
+
+.inside-card {
+    position: relative;
+}
+
+.category {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(45, 48, 48, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+ul li {
+    list-style-type:none;
+}
+
+footer img {
+    max-width: 60px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
